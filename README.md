@@ -1,4 +1,4 @@
-# Raspberry Pi 4 Ubuntu 20.04 Headless Wi-Fi SSH & VNC Setup Tutorial
+# Raspberry Pi 4 ROS2 Ubuntu 20.04 Headless Wi-Fi SSH & VNC Setup Tutorial
 
 ## 1. Overview
 Read a few steps ahead before executing. It might contain error fixes or examples which might be helpful
