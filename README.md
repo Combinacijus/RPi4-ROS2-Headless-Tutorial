@@ -1,4 +1,4 @@
-# Raspberry Pi 4 ROS2 Ubuntu 20.04 Headless Wi-Fi SSH & VNC Setup Tutorial
+# Raspberry Pi 4 Ubuntu 20.04 Headless Wi-Fi SSH & VNC Setup Tutorial
 
 ## 1. Overview
 Read a few steps ahead before executing. It might contain error fixes or examples which might be helpful
@@ -215,7 +215,7 @@ ssh username@IPAddress
     3. Find and copy RPi ip address e.g *192.168.8.106*. Raspberry Pi MAC address format is DC:A6:32:xx:xx:xx
         ![](images-rpi4-tut/2021-02-02-17-00-48.png)
 
-    4. If RPi is not found stop the scan and scan again a few times (scanning can take a few minutes)
+    4. If RPi is not found stop the scan and scan again a few times (scanning can take a few minutes). Or read further for more solutions for errors (search this document for *In case of error*)
     5. If RPi have gray monitor icon power off and power on RPi wait few minutes and repeat scanning now it should show blue monitor icon
 
         ![](images-rpi4-tut/2021-02-03-19-22-26.png)
@@ -232,6 +232,11 @@ ssh username@IPAddress
         ```
 
         ![](images-rpi4-tut/2021-02-02-17-45-53.png)
+
+        - In case of error: `ssh: connect to host 192.168.0.106 port 22: Connection timed out` you need to **[disable your router WPS](https://www.pcmag.com/how-to/how-to-access-your-wi-fi-routers-settings)**:
+
+            ![](images-rpi4-tut/2021-03-09-18-25-13.png) 
+
 
        - In case of error: `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!` run
             ```
